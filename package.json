@@ -1,0 +1,27 @@
+{
+    "name": "tes",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "func start",
+        "start-local": "SET ENV=LOCAL&& node index.js",
+        "push-dev-rate": "SET ENV=DEV&& node rates\\index.js",
+        "push-preprod-rate": "SET ENV=PREPROD&& node rates\\index.js",
+        "push-prod-rate": "SET ENV=PROD&& node rates\\index.js",
+        "test": "echo \"No tests yet...\""
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "body-parser": "^1.20.2",
+        "compressing": "^1.10.1",
+        "compression": "^1.7.4",
+        "csv-stringify": "^6.5.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "file-sizeof": "^1.1.0",
+        "form-data": "^4.0.0",
+        "fs": "0.0.1-security",
+        "mssql": "^11.0.1",
+        "nodemailer": "^6.9.14"
+    }
+}
